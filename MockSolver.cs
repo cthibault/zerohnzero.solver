@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace zerohnzero.solver
 {
-    class CurtisSolver : ISolver
+    class MockSolver : ISolver
     {
         public string Solve(string board)
         {

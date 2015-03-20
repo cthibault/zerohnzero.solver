@@ -16,7 +16,10 @@ namespace zerohnzero.solver
             var testManager = new TestManager(boardFilePath, Console.WriteLine);
             testManager.Initialize();
 
-            testManager.Execute(new CurtisSolver());
+            //TODO: Replace with your solver implementation
+            ISolver solver = new MockSolver();
+
+            testManager.Execute(solver);
 
             Console.ReadKey();
         }
