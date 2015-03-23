@@ -8,8 +8,8 @@ This is an Algorithm Challenge: to design a solver for the game [0hn0](http://0h
 Example Board: `3,3|1,-,-,-,2,r,-,4,-`
 
 The first segment before the `|` specifies the board's dimensions:
-  * Number of Columns
   * Number of Rows
+  * Number of Columns
 
 The second segment specifies the values from left to right, top to bottom.
   * A number (`n`) indicates that the cell is **blue** and can see `n` other blue cells.
