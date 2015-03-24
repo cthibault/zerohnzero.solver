@@ -11,6 +11,7 @@ namespace zerohnzero.solver
         {
             this._board = board;
             this._solution = solution;
+            this._proposedSolution = proposedSolution;
             this._elapsedTime = elapsedTime;
         }
 
